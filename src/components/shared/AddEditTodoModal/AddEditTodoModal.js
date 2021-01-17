@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-
 import { Modal, Button, Form, Spinner } from 'react-bootstrap';
-import { returnSubmitData } from '../../../helpers/returnSubmitData';
 
+import { returnSubmitData } from '../../../helpers/returnSubmitData';
 import { mockedApiCall } from '../../../services/services';
 
 export default ({ showData, handleClose, todos, updateTodos }) => {

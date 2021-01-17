@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Spinner } from 'react-bootstrap';
 
 import mockData from '../../../mockData/mockData.json';
 import TodoContent from './TodoContent/TodoContent';
@@ -6,7 +7,6 @@ import DoneContent from './DoneContent/DoneContent';
 import AddEditTodoModal from '../../shared/AddEditTodoModal/AddEditTodoModal';
 import { DeleteTodoModal } from '../../shared/DeleteTodoModal/DeleteTodoModal';
 import { mockedApiCall } from '../../../services/services';
-import { Spinner } from 'react-bootstrap';
 
 export const Dashboard = () => {
   const [todos, setTodos] = useState(null)
