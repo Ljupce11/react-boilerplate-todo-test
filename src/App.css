@@ -1,0 +1,32 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+div.todo {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 25px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+div.todo:hover {
+  background-color: #f7f7f7;
+}
+
+div.checked {
+  background-color: #e0effe;
+}
+
+div.checked:hover {
+  background-color: #e0effe;
+}
+
+button.add-todo {
+  border-radius: 50%;
+}
+
+.todo-checkbox {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
