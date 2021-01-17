@@ -13,7 +13,7 @@ export default ({ todos, onChangeHandler, setShowAddEditModal, showDeleteModalHa
               <TodoCard
                 todo={todo}
                 onChangeHandler={onChangeHandler}
-                setShowAddEditModal={() => setShowAddEditModal()}
+                setShowAddEditModal={(showValue, todoValue) => setShowAddEditModal(showValue, todoValue)}
                 showDeleteModalHandler={showDeleteModalHandler} />
             </React.Fragment>
           ))
